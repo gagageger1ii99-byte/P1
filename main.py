@@ -3,8 +3,8 @@ import time
 import subprocess
 from curl_cffi import requests
 
-CHANNEL_NAME = "ib6h"
-RTMP_TARGET = "rtmp://live.restream.io/live/re_11725544_event57b4ae7f7bef4493a9528d5432741a03"
+CHANNEL_NAME = "AbuSwe7l"
+RTMP_TARGET = "rtmp://live.restream.io/live/re_11725544_event1f24e3174647428d86fc1329252bbf36"
 
 def get_kick_stream_url(channel_name):
     api_url = f"https://kick.com/api/v2/channels/{channel_name}"
