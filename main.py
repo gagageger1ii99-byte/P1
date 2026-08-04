@@ -43,8 +43,8 @@ def start_stream():
             '-y',
             '-fflags', '+nobuffer+discardcorrupt',
             '-i', live_url,
-            '-map', '0:v:0',
-            '-map', '0:a:0?',
+            '-map', '0:v',
+            '-map', '0:a?',
             '-c:v', 'copy',
             '-c:a', 'aac',
             '-b:a', '128k',
@@ -58,4 +58,3 @@ def start_stream():
 
 if __name__ == "__main__":
     start_stream()
-
